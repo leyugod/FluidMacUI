@@ -69,7 +69,7 @@ struct LayoutV1Tests {
                 children: [
                     FMOutlineNode(
                         id: "nav",
-                        title: "04_Navigation",
+                        title: "Navigation",
                         icon: "folder.fill",
                         children: [
                             FMOutlineNode(id: "split", title: "FMSplitPane.swift", icon: "swift")

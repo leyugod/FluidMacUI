@@ -69,7 +69,7 @@ struct ProductivityPage: View {
                     children: [
                         FMOutlineNode(
                             id: "controls",
-                            title: "02_Controls",
+                            title: "Controls",
                             icon: "folder.fill",
                             iconColor: FMColor.blue,
                             badge: "15",
@@ -81,7 +81,7 @@ struct ProductivityPage: View {
                         ),
                         FMOutlineNode(
                             id: "dataDisplay",
-                            title: "06_DataDisplay",
+                            title: "DataDisplay",
                             icon: "folder.fill",
                             iconColor: FMColor.blue,
                             badge: "7",
@@ -93,7 +93,7 @@ struct ProductivityPage: View {
                         ),
                         FMOutlineNode(
                             id: "productivity",
-                            title: "09_Productivity",
+                            title: "Productivity",
                             icon: "folder.fill",
                             iconColor: FMColor.blue,
                             badge: "8",

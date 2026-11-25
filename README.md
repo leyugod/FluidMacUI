@@ -91,14 +91,14 @@ struct ContentView: View {
 
 ## Complete v1.0.0 Component Catalog (10 Modules · 71 Source Files)
 
-### `00_PlatformBridge` — AppKit & Trackpad Bridges
+### `PlatformBridge` — AppKit & Trackpad Bridges
 | File | Public Symbols |
 | :--- | :--- |
 | `FMHaptics.swift` | `FMHaptics`, `FMHapticPattern` |
 | `FMTrackpadSwipeBridge.swift` | `FMTrackpadSwipeBridge` |
 | `FMWindowAccessor.swift` | `FMWindowAccessor`, `FMWindowState`, `FMTitleBarDragArea` |
 
-### `01_Foundation` — Theme, Material, Motion & Layout Tokens
+### `Foundation` — Theme, Material, Motion & Layout Tokens
 | File | Public Symbols |
 | :--- | :--- |
 | `FMTheme.swift` | `FMTheme`, `FMColor`, `FMSurfaceStyle`, `FMCornerStyle`, `.fmTheme(_:)` |
@@ -110,7 +110,7 @@ struct ContentView: View {
 | `FMGlassCard.swift` | `FMGlassCard`, `FMCardSurface` |
 | `FMIconBadge.swift` | `FMIconBadge` |
 
-### `02_Controls` — Pure-SwiftUI Interactive Controls
+### `Controls` — Pure-SwiftUI Interactive Controls
 | File | Public Symbols |
 | :--- | :--- |
 | `FMButtonStyle.swift` | `FMButtonStyle`, `FMButtonVariant`, `FMButtonMetrics`, `.buttonStyle(.fm(...))` |
@@ -129,7 +129,7 @@ struct ContentView: View {
 | `FMSearchBar.swift` | `FMSearchBar` |
 | `FMShortcutRecorder.swift` | `FMShortcutRecorder`, `FMKeyShortcut`, `FMKeyModifiers`, `FMShortcutMath` |
 
-### `03_Containers` — Structured Grouping & Surfaces
+### `Containers` — Structured Grouping & Surfaces
 | File | Public Symbols |
 | :--- | :--- |
 | `FMInsetGroup.swift` | `FMInsetGroup` |
@@ -137,7 +137,7 @@ struct ContentView: View {
 | `FMExpandableGroup.swift` | `FMExpandableGroup` |
 | `FMGridCard.swift` | `FMGridCard` |
 
-### `04_Navigation` — Window, Sidebar, Stack, Split & Toolbar Chrome
+### `Navigation` — Window, Sidebar, Stack, Split & Toolbar Chrome
 | File | Public Symbols |
 | :--- | :--- |
 | `FMWindowContainer.swift` | `FMWindowContainer`, `FMWindowBackdrop`, `FMDynamicHUDHostView` |
@@ -148,7 +148,7 @@ struct ContentView: View {
 | `FMToolbar.swift` | `FMToolbarButton`, `FMToolbarGroup`, `FMFloatingHeaderBar` |
 | `FMTabBar.swift` | `FMTabBar`, `FMTabItem` |
 
-### `05_Feedback` — Window-Scoped Overlays, Popovers & Media Previews
+### `Feedback` — Window-Scoped Overlays, Popovers & Media Previews
 | File | Public Symbols |
 | :--- | :--- |
 | `FMOverlayCoordinator.swift` | `FMOverlayCoordinator`, `FMHUDItem`, `FMHUDStyle`, `FMHUDAction`, `@Environment(\.fmHUD)` |
@@ -159,7 +159,7 @@ struct ContentView: View {
 | `FMInlineBanner.swift` | `FMInlineBanner`, `FMBannerTone` |
 | `FMLightbox.swift` | `FMLightboxModifier`, `.fmLightbox(...)` |
 
-### `06_DataDisplay` — Telemetry, Progress, Status & Loading States
+### `DataDisplay` — Telemetry, Progress, Status & Loading States
 | File | Public Symbols |
 | :--- | :--- |
 | `FMSpinner.swift` | `FMSpinner`, `FMSpinnerStyle`, `FMSpinnerSize` |
@@ -170,14 +170,14 @@ struct ContentView: View {
 | `FMEmptyStateView.swift` | `FMEmptyStateView` |
 | `FMSkeletonModifier.swift` | `FMSkeletonModifier`, `.fmSkeleton(...)` |
 
-### `07_DesktopExtras` — Native macOS Status, Keycaps, Tooltips & Menu Bar
+### `DesktopExtras` — Native macOS Status, Keycaps, Tooltips & Menu Bar
 | File | Public Symbols |
 | :--- | :--- |
 | `FMStatusBar.swift` | `FMStatusBar`, `FMStatusBarItem`, `FMStatusBarDivider` |
 | `FMTooltip.swift` | `FMKeycap`, `FMTooltipModifier`, `.fmTooltip(...)` |
 | `FMMenuBarPanel.swift` | `FMMenuBarPanel` |
 
-### `08_Editorial` — App Store & Editorial Layout Primitives
+### `Editorial` — App Store & Editorial Layout Primitives
 | File | Public Symbols |
 | :--- | :--- |
 | `FMHeroHeader.swift` | `FMHeroHeader` |
@@ -189,7 +189,7 @@ struct ContentView: View {
 | `FMRatingView.swift` | `FMRatingView` |
 | `FMAvatar.swift` | `FMAvatar`, `FMAvatarGroup` |
 
-### `09_Productivity` — Power-User Desktop Workflows
+### `Productivity` — Power-User Desktop Workflows
 | File | Public Symbols |
 | :--- | :--- |
 | `FMCommandPalette.swift` | `FMCommandPaletteModifier`, `FMCommandItem`, `FMCommandGroup`, `FMCommandMatcher`, `.fmCommandPalette(...)` |
